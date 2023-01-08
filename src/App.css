@@ -1,3 +1,9 @@
+.heading {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Question-1 */
 .card-container {
   width: 90%;
   margin: 5rem auto;
@@ -43,4 +49,69 @@
 
 .card-up:active {
   scale: 0.95;
+}
+
+
+/* Question-2 */
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-container form {
+  display: flex;
+  gap: 0 1rem;
+}
+
+.comments-container #comment {
+  padding: .5rem 1rem;
+}
+
+
+/* Question-3 */
+#rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 20dvh;
+  gap: 1rem
+}
+
+.star {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  background-color: azure;
+}
+
+.active {
+  background-color: yellow;
+}
+
+
+
+/* Question-4 */
+.share-container {
+  padding: 2rem 5rem;
+}
+
+.share-container p {
+  letter-spacing: .4px;
+  word-spacing: 1px;
+}
+
+.share-container #share-heading {
+  text-align: center;
+}
+
+.share-container #share-link-btn {
+  background: url('https://bit.ly/37iuXZy');
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top: 50px;
+  left: 1rem;
 }
